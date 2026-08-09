@@ -1,0 +1,89 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+migrations/
+!*/migrations/__init__.py
+/media/
+/static/
+/staticfiles/
+.DS_Store
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.pid
+*.seed
+*.pid.lock
+
+# Django
+/local_settings.py
+/.env
+!.env.example
+
+# Node.js / Vue
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/dist
+/dist-ssr
+/*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+.idea/
+*.iml
+*.iws
+.ionic/
+.sass-cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+*.pid
+.dockerignore
+
+# Системные
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+*.orig
+
+# Логи
+*.log
+/logs/
+
+# Redis dump
+dump.rdb
+
+# Grafana / Loki
+/grafana-data/
+/loki-data/
+/promtail-data/
