@@ -1,8 +1,0 @@
-source venv/bin/activate.fish в backend для активации venv
-pip freeze > requirements.txt фиксация зависимостей
-
-django-admin startproject myproject . инициализация проекта django
-python manage.py startapp api инициализация приложения django
-
-black . --exclude venv линтер backend
-npm run lint линтер frontend
