@@ -87,3 +87,5 @@ dump.rdb
 /grafana-data/
 /loki-data/
 /promtail-data/
+
+commands.txt
