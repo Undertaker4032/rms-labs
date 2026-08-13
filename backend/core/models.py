@@ -21,7 +21,7 @@ class Template(models.Model):
         ]
 
     def __str__(self) -> str:
-        return f"{self.name} v {self.version}"
+        return f"{self.name} v{self.version}"
 
 
 class BaseApproval(models.Model):
